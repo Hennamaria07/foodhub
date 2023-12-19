@@ -1,0 +1,151 @@
+
+.home-wrapper {
+    /* height: cal(100vh - 74px); */
+    background-image: linear-gradient(180deg, rgba(245,71,72,0.1) 0%, rgba(245, 71, 71, 0));
+}
+.home-col {
+    width: 50%;
+    height: 60vh;
+}
+.text-yellow {
+    color:rgba(253, 197, 94, 1);
+}
+@media (min-width: 1280px) {
+    .home-col {
+        width: 50%;
+        height: 60vh;
+    }
+    .nav-arrow {
+        position: relative;
+        z-index: 10;
+        top: 5rem;
+        left: 18rem;
+        width: 141px;
+        height: 140px;
+    }
+    .first-col-home{
+        position: relative;
+        top: 3rem;
+    }
+.home-heading {
+    font-size: 4rem;
+}
+.lemon {
+    top: 1rem;
+    position: relative;
+    right: 9.5rem;
+}
+.home-svg{
+    width: 400rem;
+    height: 450px;
+}
+.home-img {
+    position: relative;
+    bottom: 10rem;
+    left: 4rem;
+    z-index: 11; 
+}
+.home-description {
+    padding-right: 12rem;
+}
+.home-description p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.input-box {
+    position: relative;
+    top: 1.2rem;
+    height: 54px;
+    max-width: 471px;
+    width: 100%;
+    background: #fff;
+    color: #191919;
+    margin: 0px;
+    border-radius: 100px;
+    border: solid 1px #191919;
+  }
+  .input-box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .input-box i svg {
+    left: 20px;
+    font-size: 30px;
+    color: #191919;
+  }
+  .input-box i {
+    padding-left: 1rem;
+  }
+  .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding: 0 155px 0 65px;
+    background-color: transparent;
+  }
+  .icon {
+    position: relative;
+    top: -3rem;
+    left: 26rem;
+    cursor: pointer;
+  }
+  .group-btn {
+    margin-top: 3rem;
+  }
+  .video-btn div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .underline {
+    position: relative;
+    right: 18rem;
+    top: -1rem;
+  }
+}
+
+@media (min-width: 1024px) and ((max-width: 1280px)) {
+    .home-col {
+        width: 50%;
+        height: 60vh;
+    }
+    .nav-arrow {
+        position: relative;
+        z-index: 10;
+        top: 5rem;
+        left: 18rem;
+        width: 141px;
+        height: 140px;
+    }
+    .first-col-home{
+        position: relative;
+        top: 3rem;
+    }
+.home-heading {
+    font-size: 4rem;
+}
+.lemon {
+    top: 1rem;
+    position: relative;
+    right: 9.5rem;
+}
+.home-svg{
+    width: 400rem;
+    height: 450px;
+}
+.home-img {
+    position: relative;
+    bottom: 10rem;
+    left: 4rem;
+    z-index: 11; 
+}
+}
